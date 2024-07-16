@@ -1,0 +1,10 @@
+num = 927282
+i = 0
+total = 0
+
+while (num>i):
+    a = num % 10
+    num = num // 10
+    total = total *10 + a
+    
+print(f"{total=}")

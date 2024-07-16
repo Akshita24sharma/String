@@ -1,0 +1,11 @@
+name = "akshita"
+d = {}
+
+for n in name:
+    keys = d.keys()
+    if n in keys:
+        d[n] +=1
+    else:
+        d[n] = 1
+        
+print("Frequency of letters:-", d)

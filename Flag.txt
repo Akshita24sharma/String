@@ -1,0 +1,17 @@
+num1 = 17
+
+ flag = 1
+
+for i in range(2,num1):
+    if num1%i == 0:
+        # print("Not a prime numner")
+        flag = 0
+        break
+    else:
+        flag = 1
+        # print("prime number")
+
+if flag == 0:
+    print("Number is not prime")
+else:
+    print("Number is prime")

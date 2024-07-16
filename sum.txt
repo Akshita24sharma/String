@@ -1,0 +1,24 @@
+num = 927282
+i = 0
+total = 0
+
+while (num>i):
+    a = num % 10
+    total += a
+    num = num // 10
+    
+print(f"{total=}")
+
+
+
+num = 927282
+i = 0
+b = 0
+
+while (num>i):
+    a = num % 10
+    num = num // 10
+    print("a is :-", a)
+    b = b+a
+    
+print("b is:-", b)

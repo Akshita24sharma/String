@@ -1,0 +1,27 @@
+Example 1
+
+a = 7
+b = 2
+
+
+out1 = a * b
+out2 = a ** b
+out3 = str(a) * b
+out4 = a + b
+out5 = str(b) * a
+out6 = a % b
+out7 = a // b
+
+print("The output1 is:",out1)
+print("The output2 is:",out2)
+print("The output3 is:",out3)
+print("The output4 is:",out4)
+print("The output5 is:",out5)
+print("The output6 is:",out6)
+print("The output7 is:",out7)
+_________________________________________________
+ Example 2
+
+a = input("Enter the value:")
+
+print("This is string",int(a))
